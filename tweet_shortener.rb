@@ -1,4 +1,4 @@
-def dictionary
+dictionary = {
   "hello" becomes 'hi'
 "to, two, too" become '2' 
 "for, four" become '4'
