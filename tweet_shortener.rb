@@ -14,4 +14,7 @@ def dictionary
 end
 
 def word_substituter (string)
-  string.split(" ")
+  array = string.split(" ")
+  
+  array.map do |word|
+    
