@@ -23,5 +23,6 @@ def word_substituter (string)
       word
     end
   end
-  puts array.join
+  array.join(" ")
+end
     
