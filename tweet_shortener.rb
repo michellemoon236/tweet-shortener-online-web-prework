@@ -1,5 +1,5 @@
 dictionary = {
-  "hello" becomes 'hi'
+  "hello" => 'hi',
 "to, two, too" become '2' 
 "for, four" become '4'
 'be' becomes 'b'
