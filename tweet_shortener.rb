@@ -17,4 +17,11 @@ def word_substituter (string)
   array = string.split(" ")
   
   array.map do |word|
+    if word.include?(dictionary)
+      word = dictionary[word]
+    else
+      word
+    end
+  end
+  puts array.
     
