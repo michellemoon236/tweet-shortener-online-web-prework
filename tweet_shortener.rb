@@ -14,9 +14,7 @@ def dictionary
 end
 
 def word_substituter (string)
-  array = string.split
-  
-  array.map do |word|
+  array = string.split.map do |word|
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
     else
