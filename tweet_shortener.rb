@@ -23,5 +23,5 @@ def word_substituter (string)
       word
     end
   end
-  puts array.
+  puts array.join
     
