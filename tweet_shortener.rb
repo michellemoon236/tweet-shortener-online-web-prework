@@ -24,5 +24,10 @@ def word_substituter (string)
   array.join(" ")
 end
     
-def bulk_tweet_shortener
-  
+def bulk_tweet_shortener (string)
+  puts word_substituter (string)
+end
+
+def selective_tweet_shortener (string)
+  if string.length > 140
+    
