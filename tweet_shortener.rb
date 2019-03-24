@@ -38,7 +38,7 @@ def selective_tweet_shortener (string)
   end
 end
 
-def shortened_tweet_truncator
+def shortened_tweet_truncator (string)
   if word_substituter(string).length > 140
     word_substituter(string)[0...140]+("...")
   else
